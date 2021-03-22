@@ -1,0 +1,87 @@
+<!--Gbenro Adeyeye, 3/14/2021, week 10, CIS373005VA016-1212-001, and Strayer University -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body{
+    background-color:beige    
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+
+<body>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+</ul>
+
+<h2>Price List of Events</h2>
+
+<table>
+  <tr>
+    <th>Photo Packages</th>
+    <th>Price</th>
+    
+  </tr>
+  <tr>
+    <td>Birthday party event</td>
+    <td>$150</td>
+    
+  </tr>
+  <tr>
+    <td>Graduation ceremony</td>
+    <td>$300</td>
+    
+  </tr>
+  <tr>
+    <td>Court Wedding</td>
+    <td>$500</td>
+    
+  </tr>
+  <tr>
+    <td>Corporte Event</td>
+    <td>$300</td>
+    
+  </tr>
+  <tr>
+    <td>kid's birthday party</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Product Photography</td>
+    <td>$250</td>
+  </tr>
+</table>
+
+<h2>Prints</h2>
+Enter the number of  prints you want:<input type="number" name="photos" id="photos" required>
+<button onclick="mypricelist()">Submit</button>
+<p id="prints"></p>
+
+<script>
+    function mypricelist(){
+        var x = parseInt(document.getElementById("photos").value);
+        var y= x * 3.25
+        document.getElementById("prints").innerHTML =  "The amout you will pay is " +"$"+ y;
+    }
+</script>
+<br><br><br><br><br><br><br><br><br>
+<p style="position: relative; left: 350pt; top: -10pt; color:darkgray;">&copy 2018-2021 Youthtech Inc. All Right Reserved.</p>
+</body>
+</html>

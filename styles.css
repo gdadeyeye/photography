@@ -1,0 +1,130 @@
+body{
+    background-color:beige    
+}
+.align{
+  margin-left: 350px;
+}
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #4441da;
+  color: white;
+  font-size: 30px;
+}
+
+.mydiv{
+    border: 5px outset red;
+    
+}
+
+.container {
+    display:flex;
+    border-bottom: 40px 20px;
+    border-radius: 20px;
+    border: solid 0px blue;
+    position: relative;
+    left: -25px;
+    margin-left: 150px;
+    margin-right: 10%;
+    
+  }
+
+  #space{
+      padding:5px
+  }
+  #space2{
+    padding:5px 
+  }
+footer{
+    text-align: center;
+    padding: 0px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+
+  .box{
+      border: solid 0px blue;
+      display:flex;
+      border-radius: 20px;
+      position: relative;
+      left: -25px;
+  }
+
+  #move{
+    padding: 5px; 
+  }
+  #move1{
+      padding: 1px;
+  }
+
+  input[type=text] {
+    width: 350px;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+
+ input[type=number] {
+    width: 350px;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+
+ input[type=email] {
+    width: 350px;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+ input[type=submit] {
+    width: 100%;
+    color: white;
+    background-color: #09f;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 50px;
+ }
+
+ 
+ input[type=submit]:hover {
+    background-color: #07d;
+ }
+
+  a:visited{
+      color:brown;
+  }
+
+  a:hover{
+      color: orange;
+  }
+
+  a:active {
+    color: blue;
+  }
+
+ #first{
+     padding: 5px 2px 1px 2px;
+ }
+
+ #fileToUpload{
+     float: right;
+ }
+ 
+
+  
+ 
