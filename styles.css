@@ -1,4 +1,6 @@
 body{
+     position: relative;
+     margin: auto;
     background-color:beige    
 }
 .align{
